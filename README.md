@@ -92,8 +92,8 @@ criterion = nn.MSELoss()
 optimizer = optim.Adam(model.parameters(), lr=1e-3)
 
 # Print model summary
-print("Name: SACHIN M")
-print("Register Number: 212223040177")
+print("Name: VAISHNAVI S")
+print("Register Number: 212222230165")
 summary(model, input_size=(1, 28, 28))
 # Train the autoencoder
 def train(model, loader, criterion, optimizer, epochs=5):
